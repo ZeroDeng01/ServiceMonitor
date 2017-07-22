@@ -121,7 +121,7 @@ if __name__ == '__main__':
             print("获取时间: ", datetime)
           '''
             post(service_name, service_ip, cpu_rate, memory_rate, cpu_num, memory_num, datetime)
-            time.sleep(450)  #15分钟采样一次
+            time.sleep(450)  #采样时间间隔（秒）
 
     except KeyboardInterrupt as e:
         print("\ncpumonit exited")
